@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v1
 
-      - name: Deploy iOS Beta to TestFlight via Fastlane
+      - name: Deploy iOS Beta to TestFlight via Fastlanee
         uses: maierj/fastlane-action@v1.4.0
         with:
           lane: closed_beta
